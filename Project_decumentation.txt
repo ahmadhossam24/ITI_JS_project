@@ -1,2 +1,24 @@
-<html>
 --Decumentation--
+1)Every one make his html page on project repository
+2)As for Html,CSS we have one file for every one of them 
+3)for CSS file: writing code proccess will be like the following:
+//Ahmed code
+	write code here 
+//Sarah code
+	write code here
+//Mohamed code
+	write code here
+//Basma code
+	write code here
+
+4)for JS file unified file: writing code proccess will be like the following:
+//Ahmed code
+	write code here 
+//Sarah code
+	write code here
+//Mohamed code
+	write code here
+//Basma code
+	write code here
+
+5)head and navbar is fixed for all pages (implemented at the begginig)
