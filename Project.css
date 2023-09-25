@@ -21,12 +21,49 @@ body{
 }
 
 .header{
-    
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
     top: 0;
     position: sticky;
     height: 80.83px;
     border-bottom: 1px solid rgb(241, 233, 233);/* rgb(238, 233, 233)*/
 }
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header__logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header__nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header__menu-item {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .header__menu-item a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav :hover {
+    color: #c39d3e;
+  
+  }
+  
 .under-header{
 
     
