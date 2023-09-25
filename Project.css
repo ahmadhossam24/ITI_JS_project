@@ -1,0 +1,60 @@
+/*shared code*/
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #e2e2e2;
+    height: 0%;/* important! this height is not the right height of page -> the right height of page(body) is being determined for every page on js file */
+    margin: 0px;
+    padding-top: 30px ;
+    padding-bottom: 30px ;
+    padding-right: 72px ;
+    padding-left: 72px ;
+}
+
+.page-container{
+    background-color: aqua;/*remove*/
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+.header{
+    background-color: blue;/*remove*/
+    top: 0;
+    position: sticky;
+    height: 80.83px;
+    border-bottom: 1px solid rgb(241, 233, 233);/* rgb(238, 233, 233)*/
+}
+.under-header{
+    background-color: green;/*remove*/
+    height: 95.75%;
+    padding-left: 31px;
+    padding-right: 31px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.main{
+    height: 75.4%;
+    background-color: yellow;/*remove*/
+}
+.footer{
+    height: 402.64px;
+    background-color: black;
+}
+.rights{
+    height:47.34px;
+    background-color: grey;
+}
+
+/*Ahmed code*/
+
+/*Mohamed code*/
+
+/*Sarah code*/
+
+/*Basma code*/
