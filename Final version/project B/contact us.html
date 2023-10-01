@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contacus shop</title>
+  <link rel="stylesheet" href="./contact+Q&A.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<!-- <nav class="link_go_to">
+  <ul class="go_to">
+    <li><a href="#Gold">Gold</a></li>
+    <li><a href="#Silver">Silver</a></li>
+    <li><a href="#Gift">Gift</a></li>
+  </ul>
+</nav> -->
+<body>
+ <div class="fullpage">
+  <header>
+    <div class="headersection">
+      <div class="header">
+        <div class="header__container">
+          <h1 class="header__logo"> <img src="./BTC-Logo.png" alt=""></h1>
+          <nav class="header__nav">
+            <ul class="header__menu">
+              <li class="header__menu-item"><a href="#">Home</a></li>
+              <li class="header__menu-item"><a href="#">Shop</a></li>
+              <li class="header__menu-item"><a href="#">Conctact</a></li>
+              <li class="header__menu-item"><a href="#"><i class="fa-solid fa-heart fa-2xl" onclick="openFavs()"></i></a></li>
+                <li class="header__menu-item"><a href=".//login.html"><i class="fa-regular fa-user fa-2xl"></i></i></a></li>
+  
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- <div class="under-header"> </div> -->
+      
+      </div>
+  </header>
+<div class="main">
+      <div class="form-container">
+        <form onsubmit="return validateForm()" method="get">
+          <h1>SEND US A MESSAGE</h1>
+          <div class="form-group">
+            <label for="fullname">Name:</label>
+            <input type="text" id="fullname" name="name"  placeholder="Enter your name" required>
+            <div id="nameError" class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email"  name="Email" placeholder="Enter your email address" required>
+            <div id="emailError" class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone number:</label>
+            <input type="number" id="phone" name="number" placeholder="01XXXXXXXXXX" required>
+            <div id="phoneError" class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Enter your message here" required></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    
+
+    <div class="icons-container">
+      <h1>GET IN TOUCH</h1>
+      <br>
+      <p style="font-size: large;"> <i class="fa fa-location-arrow" aria-hidden="true" style="font-size: 50px;"></i>
+        Location
+      <p>8 Zokak El Fadel, El Mashhad El Husseiny
+        ElGamaleya, Cairo, Egypt</p>
+      </p>
+      <br>
+      <p style="font-size: large;"> <i class="fa fa-envelope" aria-hidden="true" style="font-size: 50px;"></i> Email
+      <p>info@btc-egyptgold.com</p>
+
+      <br>
+      <p style="font-size: large;"> <i class="fa fa-phone" aria-hidden="true" style="font-size: 50px;"></i> Phone
+      <p> +209043843</p>
+      </p>
+
+      <br>
+    </div>
+  </div>
+  </div>
+</div>
+<script src="./Contact.js"></script>
+<script src="https://kit.fontawesome.com/d45140661f.js" crossorigin="anonymous"></script>
+</body>
+
+<!-- <script type="text/javascript">
+  
+  function validateForm() {
+    let name = document.getElementById("fullname").value;
+    let email = document.getElementById("email").value;
+    let phone = document.getElementById("phone").value;
+
+    // Validate name
+    if (!/^[A-Za-z]+$/.test(name)) {
+      alert("Name should contain only characters");
+      document.getElementById("fullname").value = "";
+      document.getElementById("fullname").focus();
+      return false;
+    }
+
+    // Validate email
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      alert("Invalid email address");
+      document.getElementById("email").value = "";
+      document.getElementById("email").focus();
+      return false;
+    }
+
+    // Validate phone number
+    if (!/^\+2\d{11}$/.test(phone)) {
+      alert("Phone number should start with +2 and contain 13 digits"); // 13 because we added the +2 as pr number 
+      document.getElementById("phone").value = "";
+      document.getElementById("phone").focus();
+      return false;
+    }
+
+    return true;
+  } -->
+</script>
+
+</html>

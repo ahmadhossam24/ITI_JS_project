@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q&A</title>
+  <link rel="stylesheet" href="./contact+Q&A.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="fullpage">
+  <div class="page-container">
+    <div class="header">
+      <div class="header2"></div>
+      <div class="header__container">
+        <h1 class="header__logo"> <img src="./BTC-Logo.png" alt=""></h1>
+        <ul class="header__menu">
+          <li class="header__menu-item"><a href="#">Home</a></li>
+          <li class="header__menu-item"><a href="#">Shop</a></li>
+          <li class="header__menu-item"><a href="#">Conctact</a></li>
+          <li class="header__menu-item"><a href="#"><i class="fa-solid fa-heart fa-2xl" onclick="openFavs()"></i></a></li>
+          <li class="header__menu-item"><a href=".//login.html"><i class="fa-regular fa-user fa-2xl"></i></i></a></li>
+          <nav class="header__line">
+        </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- <nav class="link_go_to">
+      <ul class="go_to">
+        <li><a href="#Gold">Gold</a></li>
+        <li><a href="#Silver">Silver</a></li>
+        <li><a href="#Gift">Gift</a></li>
+      </ul>
+    </nav> -->
+
+    <div class="under-header"> </div>
+    <div class="main">
+    </div>
+    <div class="core">
+      <h1 style="color:#fcb900;">Our story</h1>
+      <p class="para" style="color:antiquewhite;">It all started with a small shop in Suez city in 1935, that over the
+        years turned into a full-fledged business of premium brands run by the Nassars, leading the gold and jewelry
+        industry with an unprecedented level of services. By then, it was essential to move to a bigger market.</p>
+      <br>
+      <br>
+      <h1 style="color:#fcb900; clear: both;">Questions & Answers</h1>
+      <p class="para" style="color:antiquewhite;">
+        How can I contact you?
+        <br>
+        <br>
+        BTC gladly offers you 24/7 support and free consultancy service. You can contact us through one of the following
+        channels:
+        Contact number: +29489483974
+        <br>
+      <h1 style="color:#fcb900; clear: both;"></h1>
+      <p class="para" style="color:antiquewhite;">
+        How can I contact you?
+        <br>
+        <br>
+        BTC gladly offers you 24/7 support and free consultancy service. You can contact us through one of the following
+        channels:
+        Contact number: +29489483974
+      </p>
+      <br>
+      <h1 style="color:#fcb900; clear: both;"></h1>
+      <p class="para" style="color:antiquewhite;">
+        How can I contact you?
+        <br>
+        <br>
+        BTC gladly offers you 24/7 support and free consultancy service. You can contact us through one of the following
+        channels:
+        Contact number: +29489483974
+      </p>
+      <br>
+      <h1 style="color:#fcb900; clear: both;"></h1>
+      <p class="para" style="color:antiquewhite;">
+        How can I contact you?
+        <br>
+        <br>
+        BTC gladly offers you 24/7 support and free consultancy service. You can contact us through one of the following
+        channels:
+        Contact number: +29489483974
+      </p>
+      <br>
+      <h1 style="color:#fcb900; clear: both;"></h1>
+      <p class="para" style="color:antiquewhite;">
+        How can I contact you?
+        <br>
+        <br>
+        BTC gladly offers you 24/7 support and free consultancy service. You can contact us through one of the following
+        channels:
+        Contact number: +29489483974
+      </p>
+      <br>
+      <h1 style="color:#fcb900; clear: both; font-family:cursive;">Thank you for visiting our website</h1>
+
+      </p>
+    </div>
+  </div>
+</div>
+<script src="https://kit.fontawesome.com/d45140661f.js" crossorigin="anonymous"></script>
+</body>
+
+<style>
+  .core {
+    width: 100%;
+    height: 2000px;
+    background-image: url(./kitkat.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-bottom: 100px;
+    padding: 20px;
+  }
+
+  .para {
+    width: 40%;
+    float: left;
+    padding-left: 8px;
+  }
+</style>
+<script>
+  var images = ['./kitkat.webp', './cat.webp', './slider.webp'];
+  var index = 0;
+
+  function changeImage() {
+    document.querySelector('.core').style.backgroundImage = 'url(' + images[index] + ')';
+    index = (index + 1) % images.length;
+  }
+
+  setInterval(changeImage, 2000);
+</script>
+<!-- //n this example, we have an array of image paths and a variable index that keeps track of the current image. The
+changeImage() function sets the background-image property of the .core element to the URL at the current index and
+increments the index. The setInterval() function calls the changeImage() function every 5 seconds.// -->
+
+
+</html>
