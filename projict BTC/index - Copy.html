@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style - Copy.css">
+</head>
+<body>
+
+  <div class="page">
+    <header class="header">
+      <div class="header__container">
+            <h1 class="header__logo"> <img src="./BTC-Logo-350.png" alt=""></h1>
+            <nav class="header__nav">
+              <ul class="header__menu">
+                <li class="header__menu-item"><a href="#">Home</a></li>
+                <li class="header__menu-item"><a href="#">Login</a></li>
+                <li class="header__menu-item"><a href="#">FAQs</a></li>
+                <li class="header__menu-item"><a href="#">Contact us</a></li>
+                <li class="header__menu-item"><a href="#"><i class="fa-solid fa-heart fa-2xl" onclick="openFavs()"></i></a></li>
+                <li class="header__menu-item"><a href="#"><i class="fa-regular fa-user fa-2xl"></i></i></a></li>
+              </ul>
+              
+            </nav>
+        </div> 
+        </header>
+        <nav class="link_go_to">
+          <ul class="go_to">
+            <li><a href="#Gold">Gold</a></li>
+            <li><a href="#Silver">Silver</a></li>
+            <li><a href="#Gift">Gift</a></li>
+          </ul>
+        </nav>
+      
+        <main>
+          <div class="Form">
+            <form onsubmit="return validateForm()" method="get">
+              <h1>SEND US A MESSAGE</h1>
+              <div>
+                <h2>Name</h2>
+                <input type="text" id="fullname" required style="width: 500px; height:50px">
+                <div id="nameError" style="background-color: red;"></div>
+              </div>
+              <br>
+              <br>
+              <br>
+              <div>
+                <h2>Email</h2>
+                <input type="email" id="email" required style="width: 500px; height:50px">
+                <div id="emailError" style="color: red;"></div>
+              </div>
+              <br>
+              <br>
+              <br>
+              <div>
+                <h2>Phone number</h2>
+                <input type="number" id="phone" required style="width: 500px; height:50px">
+              </div>
+              <br>
+              <br>
+              <br>
+              <h2>Massage</h2>
+              <textarea type="" text="" required , style="width: 500PX; height:500px;"></textarea>
+              <br>
+              <br>
+              <br>
+              <button style="background-color: #c39d3e; border-radius:7px; font:bold">Send Massage</button>
+              <br>
+              <br style=font:bold>
+              <br>
+            </form>
+          </div>
+          <div class="icons">
+            <h1>GET IN TOUCH</h1>
+            <br>
+            <p style="font-size: large;"> <i class="fa fa-location-arrow" aria-hidden="true" style="font-size: 50px;"></i>
+              Location
+            <p>8 Zokak El Fadel, El Mashhad El Husseiny
+              ElGamaleya, Cairo, Egypt</p>
+            </p>
+            <br>
+            <p style="font-size: large;"> <i class="fa fa-envelope" aria-hidden="true" style="font-size: 50px;"></i> Email
+            <p>info@btc-egyptgold.com</p>
+  
+            <br>
+            <p style="font-size: large;"> <i class="fa fa-phone" aria-hidden="true" style="font-size: 50px;"></i> Phone
+            <p> +209043843</p>
+            </p>
+  
+            <br>
+  
+  
+          </div>
+        </main>
+      
+        <footer class="footer">
+          <div class="footer__container">
+            <p class="footer__text"></p>
+          </div>
+        </footer>
+  </div>
+  
+  <script src="https://kit.fontawesome.com/d45140661f.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>

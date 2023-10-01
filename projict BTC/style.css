@@ -1,0 +1,146 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 50px;
+  background-color: #e4e4e6;
+ 
+
+}
+.page{
+  background-color: #fff;
+  border: 10px solid #fff;
+  border-radius: 22px;
+}
+
+.header {
+  background-color: #fff;
+  color: #fff;
+  padding: 20px 0;
+  height: 125px;
+  position: sticky;
+  top: 0;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header__logo {
+  margin:15px;
+} 
+
+.header__nav ul {
+  list-style-type: none;
+  margin-top: 80px;
+  padding-right: 10px;
+}
+
+.header__menu-item {
+  display: inline;
+  margin-right: 10px;
+}
+
+.header__menu-item a {
+  text-decoration: none;
+  color: #a19e9e;
+}
+.img_{
+  align-items: center;
+  margin-left:200px ;
+}
+
+ul.go_to {
+  list-style-type: none; 
+  margin: 5px;
+  padding: 15px;
+  background-color: #e4e4e6;
+  border-radius: 10px;
+  width: 93%;
+}
+.link_go_to {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  height: 100px; 
+}
+
+
+ul.go_to li {
+  display: inline-block; 
+  margin-right: 10px; 
+  
+}
+
+
+ul.go_to li a {
+  text-decoration: none; 
+  padding: 5px 10px; 
+  color: #c39d3e;
+
+}
+
+
+ul.go_to li a:hover {
+  color: #fffefa; 
+}
+
+nav :hover {
+  color: #c39d3e;
+
+}
+main {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  margin-bottom: 40px;
+  padding-left: 100px;
+  display: inline-block;
+}
+
+.product {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  margin-right: 30px;
+  padding-top: 50px;
+}
+
+.product img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.product :hover {
+   color:#c39d3e ;
+}
+
+
+
+
+.footer__container {
+    background-image: url(./08c60e98143f1d06f143eb6427c37ec7.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 97%;
+    
+
+  height: 300px;
+  color: #fff;
+  padding: 10px 0;
+  margin: 20px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.footer__text {
+  font-size: 14px;
+}
